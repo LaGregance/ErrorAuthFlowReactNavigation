@@ -9,7 +9,7 @@ const LoginScreen = connect()((props: any) => {
 
   return (
     <View style={{flex: 1}}>
-      <View style={{flex: 1, paddingTop: 10}}>
+      <View style={{flex: 1, padding: 60}}>
         <Button onPress={onLogin} title="Login" />
       </View>
     </View>
